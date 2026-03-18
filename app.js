@@ -182,13 +182,17 @@ function renderVotations(data) {
   
   data.votations.forEach(votation => {
     const fullTitle = votation.title[currentLang] || votation.title.fr || "N/A";
+    console.log('Rendering votation with lang:', currentLang, 'Title:', fullTitle.substring(0, 50));
     const title = getShortTitle(fullTitle);
     const total = votation.supporters_total + votation.opponents_total;
     const supPercent = total > 0 ? (votation.supporters_total / total * 100) : 50;
     const oppPercent = 100 - supPercent;
+    const campaignUrl = `https://politikfinanzierung.efk.admin.ch/app/${currentLang}/campaign-financings/${votation.id}`;
     
     const card = document.createElement('div');
     card.className = 'votation-card';
+    card.style.cursor = 'pointer';
+    card.onclick = () => window.open(campaignUrl, '_blank');
     
     card.innerHTML = `
       <div class="votation-title">${title}</div>

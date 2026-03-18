@@ -144,12 +144,13 @@ main {
     padding: 20px;
     margin-bottom: 16px;
     box-shadow: 0 2px 8px var(--shadow);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .votation-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px var(--shadow);
+    background: var(--bg-card);
 }
 
 .votation-title {
