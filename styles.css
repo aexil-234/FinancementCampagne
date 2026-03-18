@@ -1,0 +1,361 @@
+:root {
+    --bg-primary: #1C1C1E;
+    --bg-secondary: #2C2C2E;
+    --bg-card: #38383A;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8E8E93;
+    --text-tertiary: #AEAEB2;
+    --color-supporters: #34C759;
+    --color-opponents: #FF3B30;
+    --color-separator: #48484A;
+    --color-accent: #007AFF;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.language-selector {
+    display: flex;
+    gap: 8px;
+    background: var(--bg-secondary);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    background: var(--bg-card);
+}
+
+.lang-btn.active {
+    background: var(--color-accent);
+    color: var(--text-primary);
+}
+
+.vote-date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.vote-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.vote-date {
+    font-size: 16px;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+main {
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 16px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--bg-card);
+    border-top-color: var(--color-accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading p {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.votation-card {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.votation-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.votation-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.amounts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.amount-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.amount-label {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.amount-label.supporters {
+    color: var(--color-supporters);
+}
+
+.amount-label.opponents {
+    color: var(--color-opponents);
+}
+
+.amount-value {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.progress-bar-container {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--color-separator);
+}
+
+.progress-bar {
+    height: 8px;
+    background: var(--bg-card);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.progress-supporters {
+    background: var(--color-supporters);
+    transition: width 0.5s ease;
+}
+
+.progress-opponents {
+    background: var(--color-opponents);
+    transition: width 0.5s ease;
+}
+
+.progress-percentages {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+.error-message {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.error-message h2 {
+    color: var(--color-opponents);
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.error-message p {
+    margin-bottom: 16px;
+}
+
+.retry-btn {
+    background: var(--color-accent);
+    color: var(--text-primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.retry-btn:hover {
+    opacity: 0.8;
+}
+
+footer {
+    border-top: 1px solid var(--color-separator);
+    padding-top: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+.source a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.source a:hover {
+    text-decoration: underline;
+}
+
+.install-prompt {
+    display: none;
+    margin-top: 12px;
+}
+
+.install-prompt.show {
+    display: block;
+}
+
+#install-btn {
+    width: 100%;
+    background: var(--color-accent);
+    color: var(--text-primary);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: opacity 0.2s ease;
+}
+
+#install-btn:hover {
+    opacity: 0.9;
+}
+
+#install-btn:active {
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .votation-card {
+        padding: 16px;
+    }
+
+    .votation-title {
+        font-size: 16px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .language-selector {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-primary: #F2F2F7;
+        --bg-secondary: #FFFFFF;
+        --bg-card: #F9F9F9;
+        --text-primary: #000000;
+        --text-secondary: #6E6E73;
+        --text-tertiary: #8E8E93;
+        --color-separator: #D1D1D6;
+        --shadow: rgba(0, 0, 0, 0.1);
+    }
+}
