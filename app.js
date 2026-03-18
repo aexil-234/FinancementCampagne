@@ -120,25 +120,30 @@ function updateLanguage(lang) {
   currentLang = lang;
   const t = TRANSLATIONS[lang];
   
-  console.log('Changing language to:', lang);
-  console.log('Cached data available:', !!cachedData);
-  
+  // Mettre à jour les textes de l'interface
   document.getElementById('app-title').textContent = t.title;
   document.getElementById('vote-label').textContent = t.date_label;
-  document.getElementById('loading-text').textContent = t.loading;
+  
+  const loadingText = document.getElementById('loading-text');
+  if (loadingText) loadingText.textContent = t.loading;
+  
   document.getElementById('update-label').textContent = t.update;
   document.getElementById('install-text').textContent = t.install;
   document.getElementById('source-link').textContent = t.source;
   
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
+  // Mettre à jour l'indicateur de langue actif
+  const langBtns = document.querySelectorAll('.lang-btn');
+  langBtns.forEach(btn => {
+    if (btn.dataset.lang === lang) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
   });
   
+  // Re-rendre les votations avec la nouvelle langue
   if (cachedData) {
-    console.log('Re-rendering votations with language:', lang);
     renderVotations(cachedData);
-  } else {
-    console.log('No cached data available yet');
   }
   
   localStorage.setItem('preferredLanguage', lang);
@@ -180,19 +185,31 @@ function renderVotations(data) {
   
   container.innerHTML = '';
   
+  const lang = currentLang;
+  
   data.votations.forEach(votation => {
-    const fullTitle = votation.title[currentLang] || votation.title.fr || "N/A";
-    console.log('Rendering votation with lang:', currentLang, 'Title:', fullTitle.substring(0, 50));
+    // Récupérer le titre dans la langue actuelle
+    let fullTitle = "N/A";
+    if (votation.title && typeof votation.title === 'object') {
+      fullTitle = votation.title[lang] || votation.title.fr || "N/A";
+    } else if (typeof votation.title === 'string') {
+      fullTitle = votation.title;
+    }
+    
     const title = getShortTitle(fullTitle);
     const total = votation.supporters_total + votation.opponents_total;
     const supPercent = total > 0 ? (votation.supporters_total / total * 100) : 50;
     const oppPercent = 100 - supPercent;
-    const campaignUrl = `https://politikfinanzierung.efk.admin.ch/app/${currentLang}/campaign-financings/${votation.id}`;
+    
+    // URL vers la page de financement (page principale dans la bonne langue)
+    const campaignUrl = `https://politikfinanzierung.efk.admin.ch/app/${lang}/campaign-financings`;
     
     const card = document.createElement('div');
     card.className = 'votation-card';
     card.style.cursor = 'pointer';
-    card.onclick = () => window.open(campaignUrl, '_blank');
+    card.addEventListener('click', () => {
+      window.open(campaignUrl, '_blank');
+    });
     
     card.innerHTML = `
       <div class="votation-title">${title}</div>
