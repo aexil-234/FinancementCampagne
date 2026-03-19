@@ -2,8 +2,10 @@ name: Update Campaign Finance Data
 
 on:
   schedule:
-    # Tous les jours à 23h00 UTC+1 (22h00 UTC)
-    - cron: '0 22 * * *'
+    # 3x par jour : 9h, 14h et 22h (heure suisse UTC+1)
+    - cron: '0 8 * * *'   # 9h Suisse
+    - cron: '0 13 * * *'  # 14h Suisse
+    - cron: '0 21 * * *'  # 22h Suisse
   workflow_dispatch: # Permet de lancer manuellement
 
 jobs:
