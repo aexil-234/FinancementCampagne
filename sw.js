@@ -1,7 +1,8 @@
-const CACHE_NAME = 'financement-campagnes-v6';
+const CACHE_NAME = 'financement-campagnes-v7';
 const urlsToCache = [
   './',
   './index.html',
+  './changelog.html',
   './styles.css',
   './app.js',
   './manifest.json',
