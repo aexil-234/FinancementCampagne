@@ -30,7 +30,7 @@ L'application s'adapte automatiquement à la langue du système :
 - ✅ Fonctionne sur **tous les appareils** (Android, iOS, ordinateur)
 - ✅ Installable sur l'écran d'accueil
 - ✅ Mode hors ligne
-- ✅ Interface responsive et moderne
+- ✅ Historique avec possibilité de suivre les modifications/ajouts pour chaque objet
 - ✅ Sélecteur de langue intégré
 
 ### 📥 Installation
@@ -95,7 +95,7 @@ L'application s'adapte automatiquement à la langue du système :
 
 ## 🔄 Mise à jour des données
 
-Les données sont automatiquement mises à jour **tous les 2 jours à 23h00** via GitHub Actions.
+Les données sont automatiquement mises à jour **3x par jour (9h, 14h et 22h)** via GitHub Actions.
 
 ---
 
