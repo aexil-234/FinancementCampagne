@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-04-07 13:11",
+    "changes": [
+      {
+        "votation_id": 29,
+        "title": {
+          "fr": "Modification du 26 septembre 2025 de la loi fédérale sur le service civil (LSC)",
+          "de": "Änderung vom 26. September 2025 des Bundesgesetzes über den zivilen Ersatzdienst (Zivildienstgesetz, ZDG)",
+          "it": "Modifica del 26 settembre 2025 della legge federale sul servizio civile sostitutivo (Legge sul servizio civile, LSC)"
+        },
+        "date": "14.06.2026",
+        "supporters_before": 0,
+        "supporters_after": 300000.0,
+        "opponents_before": 0,
+        "opponents_after": 0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Allianz Sicherheit Schweiz, Zürich",
+            "position": "supporter",
+            "amount": 300000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-04-07 11:31",
     "changes": [
       {
