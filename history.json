@@ -3,6 +3,27 @@
     "timestamp": "2026-04-07 11:31",
     "changes": [
       {
+        "votation_id": 28,
+        "title": {
+          "fr": "Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
+          "de": "Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
+          "it": "No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)"
+        },
+        "date": "14.06.2026",
+        "supporters_before": 0,
+        "supporters_after": 0,
+        "opponents_before": 0,
+        "opponents_after": 60000.0,
+        "new_entry": true,
+        "changed_actors": [
+          {
+            "name": "Industrie und Handelskammer St. Gallen-Appenzell, St. Gallen",
+            "position": "opponent",
+            "amount": 60000.0
+          }
+        ]
+      },
+      {
         "votation_id": 29,
         "title": {
           "fr": "Modification du 26 septembre 2025 de la loi fédérale sur le service civil (LSC)",
