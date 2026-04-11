@@ -1,4 +1,4 @@
-const CACHE_NAME = 'financement-campagnes-v8';
+const CACHE_NAME = 'financement-campagnes-v9';
 const urlsToCache = [
   './',
   './index.html',
