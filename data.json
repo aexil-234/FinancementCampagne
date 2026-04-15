@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-15 11:37",
+  "lastUpdate": "2026-04-15 16:40",
   "nextVoteDate": "14.06.2026",
   "translations": {
     "fr": {
@@ -39,9 +39,9 @@
         "it": "No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)"
       },
       "date": "14.06.2026",
-      "supporters_total": 0,
+      "supporters_total": 500000.0,
       "opponents_total": 60000.0,
-      "supporters_count": 0,
+      "supporters_count": 1,
       "opponents_count": 1,
       "actors": [
         {
@@ -49,6 +49,12 @@
           "position": "opponent",
           "total": 60000.0,
           "campaign_id": 565
+        },
+        {
+          "name": "Schweizerische Volkspartei des Kantons Zürich, Dübendorf",
+          "position": "supporter",
+          "total": 500000.0,
+          "campaign_id": 570
         }
       ]
     },
