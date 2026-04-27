@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-04-27 21:54",
+    "changes": [
+      {
+        "votation_id": 28,
+        "title": {
+          "fr": "Pas de Suisse à 10 millions ! (initiative pour la durabilité)",
+          "de": "Keine 10-Millionen-Schweiz! (Nachhaltigkeitsinitiative)",
+          "it": "No a una Svizzera da 10 milioni! (Iniziativa per la sostenibilità)"
+        },
+        "date": "14.06.2026",
+        "supporters_before": 500000.0,
+        "supporters_after": 500000.0,
+        "opponents_before": 60000.0,
+        "opponents_after": 235000.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Operation Libero, Bern",
+            "position": "opponent",
+            "amount": 175000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-04-15 16:40",
     "changes": [
       {
