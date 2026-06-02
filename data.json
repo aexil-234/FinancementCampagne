@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-02 12:12",
+  "lastUpdate": "2026-06-02 17:24",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -68,7 +68,7 @@
       },
       "date": "14.06.2026",
       "supporters_total": 6592500.0,
-      "opponents_total": 9468087.0,
+      "opponents_total": 9493087.0,
       "supporters_count": 3,
       "opponents_count": 17,
       "actors": [
@@ -129,7 +129,7 @@
         {
           "name": "Le Centre, Bern",
           "position": "opponent",
-          "total": 100000.0,
+          "total": 125000.0,
           "campaign_id": 582
         },
         {
