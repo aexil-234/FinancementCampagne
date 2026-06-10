@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-10 11:44",
+  "lastUpdate": "2026-06-10 16:35",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -68,7 +68,7 @@
       },
       "date": "14.06.2026",
       "supporters_total": 6592500.0,
-      "opponents_total": 9583087.0,
+      "opponents_total": 9582386.0,
       "supporters_count": 3,
       "opponents_count": 17,
       "actors": [
@@ -81,7 +81,7 @@
         {
           "name": "Alliance « NON à l'initiative du chaos », Berne",
           "position": "opponent",
-          "total": 4865187.0,
+          "total": 4809486.0,
           "campaign_id": 578
         },
         {
@@ -147,7 +147,7 @@
         {
           "name": "PLR.Les Libéraux-Radicaux, Bern",
           "position": "opponent",
-          "total": 130000.0,
+          "total": 185000.0,
           "campaign_id": 577
         },
         {
