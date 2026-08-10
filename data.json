@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-10 09:39",
+  "lastUpdate": "2026-08-10 14:19",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -40,15 +40,21 @@
       },
       "date": "27.09.2026",
       "supporters_total": 0,
-      "opponents_total": 100700.0,
+      "opponents_total": 467530.0,
       "supporters_count": 0,
-      "opponents_count": 1,
+      "opponents_count": 2,
       "actors": [
         {
           "name": "Operation Libero, Bern",
           "position": "opponent",
           "total": 100700.0,
           "campaign_id": 600
+        },
+        {
+          "name": "Sozialdemokratische Partei der Schweiz, Bern",
+          "position": "opponent",
+          "total": 366830.0,
+          "campaign_id": 603
         }
       ]
     },
