@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-11 09:06",
+  "lastUpdate": "2026-08-11 14:19",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -67,15 +67,21 @@
       },
       "date": "27.09.2026",
       "supporters_total": 0,
-      "opponents_total": 100000.0,
+      "opponents_total": 1631446.0,
       "supporters_count": 0,
-      "opponents_count": 1,
+      "opponents_count": 2,
       "actors": [
         {
           "name": "Agri Médias Sàrl, Lausanne",
           "position": "opponent",
           "total": 100000.0,
           "campaign_id": 601
+        },
+        {
+          "name": "Union Suisse des Paysans (USP), Brugg",
+          "position": "opponent",
+          "total": 1531446.0,
+          "campaign_id": 597
         }
       ]
     }
