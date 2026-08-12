@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-08-12 21:40",
+    "changes": [
+      {
+        "votation_id": 31,
+        "title": {
+          "fr": "Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+          "de": "Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+          "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
+        },
+        "date": "27.09.2026",
+        "supporters_before": 0,
+        "supporters_after": 0,
+        "opponents_before": 467530.0,
+        "opponents_after": 1667530.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+            "position": "opponent",
+            "amount": 1200000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-08-11 14:19",
     "changes": [
       {

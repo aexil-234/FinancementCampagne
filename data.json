@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-12 14:20",
+  "lastUpdate": "2026-08-12 21:40",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -40,9 +40,9 @@
       },
       "date": "27.09.2026",
       "supporters_total": 0,
-      "opponents_total": 467530.0,
+      "opponents_total": 1667530.0,
       "supporters_count": 0,
-      "opponents_count": 2,
+      "opponents_count": 3,
       "actors": [
         {
           "name": "Operation Libero, Bern",
@@ -55,6 +55,12 @@
           "position": "opponent",
           "total": 366830.0,
           "campaign_id": 603
+        },
+        {
+          "name": "Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
+          "position": "opponent",
+          "total": 1200000.0,
+          "campaign_id": 605
         }
       ]
     },
