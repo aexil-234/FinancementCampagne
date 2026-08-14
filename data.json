@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-14 14:15",
+  "lastUpdate": "2026-08-14 21:20",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -39,7 +39,7 @@
         "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
       },
       "date": "27.09.2026",
-      "supporters_total": 5542800.0,
+      "supporters_total": 3842800.0,
       "opponents_total": 1667530.0,
       "supporters_count": 1,
       "opponents_count": 3,
@@ -59,7 +59,7 @@
         {
           "name": "Wahrung der Schweizer Neutralität, Herrliberg",
           "position": "supporter",
-          "total": 5542800.0,
+          "total": 3842800.0,
           "campaign_id": 602
         },
         {
