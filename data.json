@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-13 21:40",
+  "lastUpdate": "2026-08-14 09:12",
   "nextVoteDate": "27.09.2026",
   "translations": {
     "fr": {
@@ -39,9 +39,9 @@
         "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
       },
       "date": "27.09.2026",
-      "supporters_total": 0,
+      "supporters_total": 5542800.0,
       "opponents_total": 1667530.0,
-      "supporters_count": 0,
+      "supporters_count": 1,
       "opponents_count": 3,
       "actors": [
         {
@@ -55,6 +55,12 @@
           "position": "opponent",
           "total": 366830.0,
           "campaign_id": 603
+        },
+        {
+          "name": "Wahrung der Schweizer Neutralität, Herrliberg",
+          "position": "supporter",
+          "total": 5542800.0,
+          "campaign_id": 602
         },
         {
           "name": "Überparteiliches Komitee Nein zur Neutralitätsinitiative, Zürich",
@@ -72,9 +78,9 @@
         "it": "Per un’alimentazione sicura – mediante il rafforzamento di una produzione nazionale sostenibile, più derrate alimentari vegetali e acqua potabile pulita (Iniziativa sull’alimentazione)"
       },
       "date": "27.09.2026",
-      "supporters_total": 0,
+      "supporters_total": 720000.0,
       "opponents_total": 1631446.0,
-      "supporters_count": 0,
+      "supporters_count": 1,
       "opponents_count": 2,
       "actors": [
         {
@@ -88,6 +94,12 @@
           "position": "opponent",
           "total": 1531446.0,
           "campaign_id": 597
+        },
+        {
+          "name": "Verein Sauberes Wasser für alle, Wiedlisbach",
+          "position": "supporter",
+          "total": 720000.0,
+          "campaign_id": 604
         }
       ]
     }

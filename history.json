@@ -1,5 +1,52 @@
 [
   {
+    "timestamp": "2026-08-14 09:12",
+    "changes": [
+      {
+        "votation_id": 31,
+        "title": {
+          "fr": "Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+          "de": "Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+          "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
+        },
+        "date": "27.09.2026",
+        "supporters_before": 0,
+        "supporters_after": 5542800.0,
+        "opponents_before": 1667530.0,
+        "opponents_after": 1667530.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Wahrung der Schweizer Neutralität, Herrliberg",
+            "position": "supporter",
+            "amount": 5542800.0
+          }
+        ]
+      },
+      {
+        "votation_id": 32,
+        "title": {
+          "fr": "Pour une alimentation sûre – grâce au renforcement de la protection indigène durable, à davantage de denrées alimentaires végétales et à une eau potable propre (initiative sur l’alimentation)",
+          "de": "Für eine sichere Ernährung – durch Stärkung einer nachhaltigen inländischen Produktion, mehr pflanzliche Lebensmittel und sauberes Trinkwasser (Ernährungsinitiative)",
+          "it": "Per un’alimentazione sicura – mediante il rafforzamento di una produzione nazionale sostenibile, più derrate alimentari vegetali e acqua potabile pulita (Iniziativa sull’alimentazione)"
+        },
+        "date": "27.09.2026",
+        "supporters_before": 0,
+        "supporters_after": 720000.0,
+        "opponents_before": 1631446.0,
+        "opponents_after": 1631446.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Verein Sauberes Wasser für alle, Wiedlisbach",
+            "position": "supporter",
+            "amount": 720000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-08-12 21:40",
     "changes": [
       {
