@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-09 12:52",
-  "nextVoteDate": "27.09.2026",
+  "lastUpdate": "2026-09-09 17:03",
+  "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
       "title": "Financement des campagnes",
@@ -32,6 +32,62 @@
   },
   "votations": [
     {
+      "id": 33,
+      "title": {
+        "fr": "Arrêté fédéral du 19 juin 2026 sur le financement additionnel de l’AVS par le biais d’un relèvement de la TVA",
+        "de": "Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer",
+        "it": "Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto"
+      },
+      "date": "29.11.2026",
+      "supporters_total": 0,
+      "opponents_total": 0,
+      "supporters_count": 0,
+      "opponents_count": 0,
+      "actors": []
+    },
+    {
+      "id": 34,
+      "title": {
+        "fr": "Pour une limitation des feux d’artifice",
+        "de": "Für eine Einschränkung von Feuerwerk",
+        "it": "Per una limitazione dei fuochi d’artificio"
+      },
+      "date": "29.11.2026",
+      "supporters_total": 0,
+      "opponents_total": 0,
+      "supporters_count": 0,
+      "opponents_count": 0,
+      "actors": []
+    },
+    {
+      "id": 35,
+      "title": {
+        "fr": "Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+        "de": "Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
+        "it": "Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!"
+      },
+      "date": "29.11.2026",
+      "supporters_total": 0,
+      "opponents_total": 0,
+      "supporters_count": 0,
+      "opponents_count": 0,
+      "actors": []
+    },
+    {
+      "id": 36,
+      "title": {
+        "fr": "Modification du 19 décembre 2025 de la loi fédérale sur le matériel de guerre (LFMG)",
+        "de": "Änderung vom 19. Dezember 2025 des Bundesgesetzes über das Kriegsmaterial (Kriegsmaterialgesetz, KMG)",
+        "it": "Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)"
+      },
+      "date": "29.11.2026",
+      "supporters_total": 0,
+      "opponents_total": 0,
+      "supporters_count": 0,
+      "opponents_count": 0,
+      "actors": []
+    },
+    {
       "id": 31,
       "title": {
         "fr": "Sauvegarder la neutralité suisse (initiative sur la neutralité)",
@@ -39,11 +95,17 @@
         "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
       },
       "date": "27.09.2026",
-      "supporters_total": 3842800.0,
+      "supporters_total": 3857800.0,
       "opponents_total": 1667530.0,
-      "supporters_count": 1,
+      "supporters_count": 2,
       "opponents_count": 3,
       "actors": [
+        {
+          "name": "MASS-VOLL!, Zürich",
+          "position": "supporter",
+          "total": 15000.0,
+          "campaign_id": 607
+        },
         {
           "name": "Operation Libero, Bern",
           "position": "opponent",
