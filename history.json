@@ -1,5 +1,36 @@
 [
   {
+    "timestamp": "2026-09-16 13:22",
+    "changes": [
+      {
+        "votation_id": 31,
+        "title": {
+          "fr": "Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+          "de": "Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+          "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
+        },
+        "date": "27.09.2026",
+        "supporters_before": 3857800.0,
+        "supporters_after": 5706982.0,
+        "opponents_before": 1667530.0,
+        "opponents_after": 1821530.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Sozialdemokratische Partei der Schweiz, Bern",
+            "position": "opponent",
+            "amount": 520830.0
+          },
+          {
+            "name": "Wahrung der Schweizer Neutralität, Herrliberg",
+            "position": "supporter",
+            "amount": 5691982.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-09 17:03",
     "changes": [
       {

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-15 23:23",
+  "lastUpdate": "2026-09-16 13:22",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -95,8 +95,8 @@
         "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
       },
       "date": "27.09.2026",
-      "supporters_total": 3857800.0,
-      "opponents_total": 1667530.0,
+      "supporters_total": 5706982.0,
+      "opponents_total": 1821530.0,
       "supporters_count": 2,
       "opponents_count": 3,
       "actors": [
@@ -115,13 +115,13 @@
         {
           "name": "Sozialdemokratische Partei der Schweiz, Bern",
           "position": "opponent",
-          "total": 366830.0,
+          "total": 520830.0,
           "campaign_id": 603
         },
         {
           "name": "Wahrung der Schweizer Neutralität, Herrliberg",
           "position": "supporter",
-          "total": 3842800.0,
+          "total": 5691982.0,
           "campaign_id": 602
         },
         {
