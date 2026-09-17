@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-09-17 13:17",
+    "changes": [
+      {
+        "votation_id": 31,
+        "title": {
+          "fr": "Sauvegarder la neutralité suisse (initiative sur la neutralité)",
+          "de": "Wahrung der schweizerischen Neutralität (Neutralitätsinitiative)",
+          "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
+        },
+        "date": "27.09.2026",
+        "supporters_before": 5706982.0,
+        "supporters_after": 5758245.95,
+        "opponents_before": 1821530.0,
+        "opponents_after": 1821530.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "Jeune Union démocratique du centre, Oberwil im Simmental",
+            "position": "supporter",
+            "amount": 51263.95
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-16 13:22",
     "changes": [
       {

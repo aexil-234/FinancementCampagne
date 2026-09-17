@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-16 23:31",
+  "lastUpdate": "2026-09-17 13:17",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -95,11 +95,17 @@
         "it": "Salvaguardia della neutralità svizzera (Iniziativa sulla neutralità)"
       },
       "date": "27.09.2026",
-      "supporters_total": 5706982.0,
+      "supporters_total": 5758245.95,
       "opponents_total": 1821530.0,
-      "supporters_count": 2,
+      "supporters_count": 3,
       "opponents_count": 3,
       "actors": [
+        {
+          "name": "Jeune Union démocratique du centre, Oberwil im Simmental",
+          "position": "supporter",
+          "total": 51263.95,
+          "campaign_id": 608
+        },
         {
           "name": "MASS-VOLL!, Zürich",
           "position": "supporter",
