@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-12 00:11",
+  "lastUpdate": "2026-10-12 17:40",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -67,11 +67,24 @@
         "it": "Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!"
       },
       "date": "29.11.2026",
-      "supporters_total": 0,
-      "opponents_total": 0,
-      "supporters_count": 0,
-      "opponents_count": 0,
-      "actors": []
+      "supporters_total": 150000.0,
+      "opponents_total": 150000.0,
+      "supporters_count": 1,
+      "opponents_count": 1,
+      "actors": [
+        {
+          "name": "JA zur Individualbesteuerung, Bern",
+          "position": "opponent",
+          "total": 150000.0,
+          "campaign_id": 613
+        },
+        {
+          "name": "Le Centre, Bern",
+          "position": "supporter",
+          "total": 150000.0,
+          "campaign_id": 614
+        }
+      ]
     },
     {
       "id": 36,

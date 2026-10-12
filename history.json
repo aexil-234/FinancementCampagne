@@ -1,5 +1,36 @@
 [
   {
+    "timestamp": "2026-10-12 17:40",
+    "changes": [
+      {
+        "votation_id": 35,
+        "title": {
+          "fr": "Oui à des impôts fédéraux équitables pour les couples mariés – Pour enfin en finir avec la discrimination du mariage !",
+          "de": "Ja zu fairen Bundessteuern auch für Ehepaare – Diskriminierung der Ehe endlich abschaffen!",
+          "it": "Sì a imposte federali eque anche per i coniugi – Basta con la discriminazione del matrimonio!"
+        },
+        "date": "29.11.2026",
+        "supporters_before": 0,
+        "supporters_after": 150000.0,
+        "opponents_before": 0,
+        "opponents_after": 150000.0,
+        "new_entry": false,
+        "changed_actors": [
+          {
+            "name": "JA zur Individualbesteuerung, Bern",
+            "position": "opponent",
+            "amount": 150000.0
+          },
+          {
+            "name": "Le Centre, Bern",
+            "position": "supporter",
+            "amount": 150000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-05 17:02",
     "changes": [
       {
