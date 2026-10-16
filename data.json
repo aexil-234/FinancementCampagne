@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-15 23:31",
+  "lastUpdate": "2026-10-16 13:09",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -39,11 +39,42 @@
         "it": "Decreto federale del 19 giugno 2026 sul finanziamento supplementare dell’AVS mediante l’aumento dell’imposta sul valore aggiunto"
       },
       "date": "29.11.2026",
-      "supporters_total": 0,
-      "opponents_total": 0,
-      "supporters_count": 0,
-      "opponents_count": 0,
-      "actors": []
+      "supporters_total": 581000.0,
+      "opponents_total": 1034590.0,
+      "supporters_count": 2,
+      "opponents_count": 3,
+      "actors": [
+        {
+          "name": "Centre Patronal, Paudex",
+          "position": "opponent",
+          "total": 60000.0,
+          "campaign_id": 623
+        },
+        {
+          "name": "PLR.Les Libéraux-Radicaux, Bern",
+          "position": "opponent",
+          "total": 849590.0,
+          "campaign_id": 620
+        },
+        {
+          "name": "Sozialdemokratische Partei der Schweiz, Bern",
+          "position": "supporter",
+          "total": 356000.0,
+          "campaign_id": 622
+        },
+        {
+          "name": "Union Démocratique du Centre (UDC), Bern",
+          "position": "opponent",
+          "total": 125000.0,
+          "campaign_id": 609
+        },
+        {
+          "name": "Union syndicale suisse (USS), Berne",
+          "position": "supporter",
+          "total": 225000.0,
+          "campaign_id": 610
+        }
+      ]
     },
     {
       "id": 34,
@@ -53,11 +84,30 @@
         "it": "Per una limitazione dei fuochi d’artificio"
       },
       "date": "29.11.2026",
-      "supporters_total": 0,
-      "opponents_total": 0,
-      "supporters_count": 0,
-      "opponents_count": 0,
-      "actors": []
+      "supporters_total": 875000.0,
+      "opponents_total": 100000.0,
+      "supporters_count": 2,
+      "opponents_count": 1,
+      "actors": [
+        {
+          "name": "Pro Feuerwerk, Neudorf",
+          "position": "opponent",
+          "total": 100000.0,
+          "campaign_id": 619
+        },
+        {
+          "name": "Protection Suisse des Animaux PSA, Bâle",
+          "position": "supporter",
+          "total": 350000.0,
+          "campaign_id": 616
+        },
+        {
+          "name": "Verein für eine Einschränkung von Feuerwerk, Bern 8",
+          "position": "supporter",
+          "total": 525000.0,
+          "campaign_id": 615
+        }
+      ]
     },
     {
       "id": 35,
@@ -94,11 +144,35 @@
         "it": "Modifica del 19 dicembre 2025 della legge federale sul materiale bellico (LMB)"
       },
       "date": "29.11.2026",
-      "supporters_total": 750000.0,
-      "opponents_total": 0,
-      "supporters_count": 1,
-      "opponents_count": 0,
+      "supporters_total": 3052500.0,
+      "opponents_total": 580000.0,
+      "supporters_count": 3,
+      "opponents_count": 2,
       "actors": [
+        {
+          "name": "Allianz Sicherheit Schweiz, Zürich",
+          "position": "supporter",
+          "total": 2190000.0,
+          "campaign_id": 612
+        },
+        {
+          "name": "Offiziersgesellschaft des Kantons St.Gallen, St. Gallen",
+          "position": "supporter",
+          "total": 112500.0,
+          "campaign_id": 617
+        },
+        {
+          "name": "Référendum sur le matériel de guerre, Zurich",
+          "position": "opponent",
+          "total": 218000.0,
+          "campaign_id": 618
+        },
+        {
+          "name": "Sozialdemokratische Partei der Schweiz, Bern",
+          "position": "opponent",
+          "total": 362000.0,
+          "campaign_id": 621
+        },
         {
           "name": "Swissmem, Zürich",
           "position": "supporter",
