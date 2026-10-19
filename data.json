@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-18 22:44",
+  "lastUpdate": "2026-10-19 15:27",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -40,7 +40,7 @@
       },
       "date": "29.11.2026",
       "supporters_total": 581000.0,
-      "opponents_total": 1034590.0,
+      "opponents_total": 1074590.0,
       "supporters_count": 2,
       "opponents_count": 3,
       "actors": [
@@ -53,7 +53,7 @@
         {
           "name": "PLR.Les Libéraux-Radicaux, Bern",
           "position": "opponent",
-          "total": 849590.0,
+          "total": 889590.0,
           "campaign_id": 620
         },
         {
