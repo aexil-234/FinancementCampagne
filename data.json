@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-05 01:16",
+  "lastUpdate": "2026-11-05 16:21",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -51,7 +51,7 @@
           "campaign_id": 623
         },
         {
-          "name": "PLR.Les Libéraux-Radicaux, Bern",
+          "name": "PLR.Les Libéraux-Radicaux, Berne",
           "position": "opponent",
           "total": 889590.0,
           "campaign_id": 620
