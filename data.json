@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-10 03:07",
+  "lastUpdate": "2026-11-10 16:19",
   "nextVoteDate": "29.11.2026",
   "translations": {
     "fr": {
@@ -40,9 +40,9 @@
       },
       "date": "29.11.2026",
       "supporters_total": 581000.0,
-      "opponents_total": 1074590.0,
+      "opponents_total": 1128811.27,
       "supporters_count": 2,
-      "opponents_count": 3,
+      "opponents_count": 4,
       "actors": [
         {
           "name": "Centre Patronal, Paudex",
@@ -61,6 +61,12 @@
           "position": "supporter",
           "total": 356000.0,
           "campaign_id": 622
+        },
+        {
+          "name": "Syndicat suisse des services publics (SSP), Zurich",
+          "position": "opponent",
+          "total": 54221.27,
+          "campaign_id": 625
         },
         {
           "name": "Union Démocratique du Centre (UDC), Bern",
@@ -118,10 +124,16 @@
       },
       "date": "29.11.2026",
       "supporters_total": 150000.0,
-      "opponents_total": 150000.0,
+      "opponents_total": 301000.0,
       "supporters_count": 1,
-      "opponents_count": 1,
+      "opponents_count": 2,
       "actors": [
+        {
+          "name": "FDP.Die Liberalen Frauen Schweiz, Bern",
+          "position": "opponent",
+          "total": 151000.0,
+          "campaign_id": 624
+        },
         {
           "name": "JA zur Individualbesteuerung, Bern",
           "position": "opponent",
